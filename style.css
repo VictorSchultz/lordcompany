@@ -1,9 +1,10 @@
 body {
   margin: 0px;
   background-color: rgba(0, 0, 0, 0.12);
-  width: 414px;
+  width: 320px;
   height: 896px;
   justify-items: center;
+  box-sizing: border-box;
 }
 
 a {
@@ -35,7 +36,7 @@ a {
 }
 
 .divisao {
-  width: 355px;
+  width: 270px;
   height: 0px;
   border: 1px solid rgba(0, 0, 0, 0.4);
   margin-left: 30px;
@@ -89,7 +90,7 @@ a {
   grid-column: 1;
   justify-self: right;
   top: 170px;
-  right: 47px;
+  right: 80px;
 
   max-width: 50%;
 }
@@ -98,7 +99,7 @@ a {
   grid-column: 2;
   justify-self: left;
   top: 198px;
-  left: 40px;
+  left: 10px;
   max-width: 57%;
 }
 
@@ -153,7 +154,7 @@ a {
 
 .headquarter {
   max-width: 70%;
-  margin: 62px;
+  margin: 55px;
   margin-top: 30px;
   margin-bottom: 0%;
   border-radius: 4px;
@@ -161,9 +162,9 @@ a {
 
 .rodape {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 5px;
   font-family: Cinzel;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 @font-face {
