@@ -1,0 +1,177 @@
+body {
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.12);
+  width: 414px;
+  height: 896px;
+  justify-items: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 0px;
+}
+
+.logo {
+  max-width: 15%;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  border-radius: 100%;
+  background-color: rgba(183, 218, 187, 0.301);
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  place-content: center;
+  margin: 20px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.title {
+  font-family: Cinzel;
+  text-align: center;
+  font-size: 23px;
+}
+
+.divisao {
+  width: 355px;
+  height: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  margin-left: 30px;
+}
+
+.info {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 37px;
+}
+
+.info a {
+  font-family: Ysabeau SC;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: black;
+  padding: 7px;
+}
+
+.fotos {
+  display: grid;
+  grid-template-columns: 2;
+  justify-items: center;
+  border-radius: 8px;
+  align-items: center;
+  gap: 0px;
+  background-image: url("ice.jpg");
+  background-size: 100%;
+  filter: blur(6px);
+  -webkit-filter: blur(3px);
+  margin-top: 27px;
+  width: 415px;
+  height: 200px;
+}
+
+.fotosdeles img {
+  position: absolute;
+}
+
+.fotosdeles {
+  display: grid;
+  grid-template-columns: 2;
+  justify-items: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.zan {
+  grid-column: 1;
+  justify-self: right;
+  top: 170px;
+  right: 47px;
+
+  max-width: 50%;
+}
+
+.pedrinho {
+  grid-column: 2;
+  justify-self: left;
+  top: 198px;
+  left: 40px;
+  max-width: 57%;
+}
+
+.nomes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-family: Cinzel;
+  font-size: 12px;
+  font-weight: lighter;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  padding-bottom: 2px;
+  border-radius: 4px;
+}
+
+.dollar {
+  max-width: 26%;
+  position: absolute;
+  top: -10px;
+  right: -50px;
+  transform: rotate(-40deg);
+}
+
+.descricao {
+  margin-right: 30px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: rgba(183, 218, 187, 0.301);
+  background-size: 100%;
+  padding: 35px 26px 20px 70px;
+  font-family: Ysabeau SC;
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.logo2 {
+  max-width: 9%;
+  position: absolute;
+  left: 35px;
+  top: 445px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.533);
+}
+
+.headquarter {
+  max-width: 70%;
+  margin: 62px;
+  margin-top: 30px;
+  margin-bottom: 0%;
+  border-radius: 4px;
+}
+
+.rodape {
+  text-align: center;
+  margin-top: 25px;
+  font-family: Cinzel;
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: "Ysabeau SC";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ysabeausc/v1/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw98U2qObYA-mg.woff2)
+    format("woff2");
+  unicode-range: U+0370-03FF;
+}
